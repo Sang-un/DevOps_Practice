@@ -1,0 +1,1 @@
+docker run --name new_jenkins -d --env JENKINS_OPTS=--httpPort=8070 -p 8070:8070 -v ~/new_jenkins:/var/jenkins_home -u root jenkins/jenkins:2.375
